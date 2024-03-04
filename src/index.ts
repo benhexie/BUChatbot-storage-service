@@ -1,5 +1,6 @@
 import express from "express";
 import { chatRoutes } from "./routes";
+import "./config/connection.config";
 
 const PORT = process.env.PORT || 8080;
 
